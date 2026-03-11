@@ -13,7 +13,7 @@ body{
     line-height:1.4;
 }
 .photo {
-    position:absolute;
+    float:right;
     right: 10px;     /* 始终靠右 */
     top: 10px;       /* 顶部对齐 */
     width: 180px;
@@ -33,9 +33,7 @@ h2{
 
 <body>
 <div class="container">
-<a href="photo.jpg">
-  <img src="photo.jpg" alt="" />
-</a>
+<img src="photo.jpg" alt="Photo" class="photo" onclick="window.open('photo_large.jpg')">
 
 <h2>Kewei Pan</h2>
 
@@ -44,7 +42,7 @@ h2{
 <i>31400, Toulouse</i><br>
 <b><i>E-mail</i></b>: <i>kewei.pan@math.univ-toulouse.fr</i><br>
 <b><i>Office</i></b>: <i>1R1 207</i>
-
+    
 <p>
 
 I am a third-year Ph.D student under the supervision of <a href="https://www.math.univ-toulouse.fr/~gcebron/index.php">Guillaume Cébron</a> 
